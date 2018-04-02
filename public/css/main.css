@@ -84,6 +84,10 @@
     font-size: 0.8rem;
   }
 
+  .bif {
+    color: transparent;
+  }
+
 @media screen and (min-width: 720px) {
   .timeBox p {
     font-size: 1rem;
@@ -104,4 +108,44 @@
   .timeBox  h6 {
     font-size: 1rem;
   }
+
 }
+
+@media screen and (max-width: 576px) {
+
+  .logo {
+    width: 120px;
+  }
+
+  .logo:nth-child(1) {
+    margin-left: 40px;
+}
+
+figcaption {
+  font-size: 10px;
+  margin-left: 40px;
+}
+  
+}
+
+
+@media (min-width: 768px) {
+
+  .logo:nth-child(1) {
+        margin-left: 150px;
+  }
+
+ }
+
+
+  @media (min-width: 992px) { 
+    .logo:nth-child(1) {
+      margin-left: 20px;
+  }
+
+  figure:nth-child(1) {
+    margin-left: 100px;
+}
+
+  
+  }
