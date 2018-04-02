@@ -9,7 +9,6 @@
   
   .eyelashes a {
     color: #888;
-    font-weight: bold;
   }
   
   .eyelashes a:hover {
@@ -50,3 +49,22 @@
   .cursor {
     cursor: pointer;
   }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+@media screen and (min-width: 720px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+}
