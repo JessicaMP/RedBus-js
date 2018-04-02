@@ -18,28 +18,72 @@
             <img class="pagoEfectivo-img" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo" />
         </figure>
     </header>
-    <footer class="footer">
-        <div class="row d-flex align-items-center justify-content-center">
-            <div class"col-md-4 col-6 d-flex justify-content-center align-items-center">
-                <p class="d-inline-block m-3 align-middle text-secondary">Instrucciones vía</p>
-                <button type="button" class="btn btn-outline-warning">
-                    <img src="assets/images/icon_print.svg" alt="print" style="width: 25.4px">
-                </button>
+    <main>
+        <nav>
+            <div class="nav nav-tabs border-warning eyelashes" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active ml-4" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                    aria-selected="true">Banca por internet</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                    aria-selected="false">Pagar en efectivo</a>
             </div>
-            <div class="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                <p>
-                    <span class="text-secondary">Ayuda: </span>
-                    <a class="text-warning font-weight-bold" href="cont">contacto@redbus.pe</a>
-                </p>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="row m-4 printMe timeBox">
+                <div class="col-xl-3 col-4 d-flex flex-column align-items-center p-3 bg-warning border-left">
+                    <p class="text-light mb-0">Código de pago</p>
+                    <div>
+                        <h2 class="mb-0 text-center text-light font-weight-bold">9125682</h2>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-3 d-flex flex-column align-items-center p-3 bg-light">
+                    <h6 class="align-middle">TOTAL</h6>
+                    <div>
+                        <h4>S/. 140.00</h4>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-5 d-flex justify-content-center align-items-center p-3 color-time-box border-right">
+                    <img class="mr-0 timeIcon" src="assets/images/icon_time.svg" alt="Generic placeholder image" style="width:
+                        2.125rem">
+                    <div class="media-body col-md-8">
+                        <p class="text-center mb-0">Tu orden expirará</p>
+                        <h6 class="text-center">Hoy</h6>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 col-6">
-                <figure class="d-flex justify-content-center align-items-center">
-                    <p class="d-inline-block text-secondary">Pago vía</p>
-                    <img class="pagoEfectivo-img" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo">
-                </figure>
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <!--Banca por internet-->
             </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <!--Pagar en efectivo-->
+            </div>
+            <button type="button" class="btn btn-danger btn-lg btn-block mt-4 mb-4 border-link">
+                <a href="link" target="_black" style="text-decoration: none; color:white">
+                    <img src="assets/images/icon_arrow.svg" alt="Arrow image" style="width:24px; margin-right:5px"> Ir a banca por internet</a>
+            </button>
         </div>
-    </footer>
+    </main>
+    <footer class="footer">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class"col-md-4 col-6 d-flex justify-content-center align-items-center">
+                    <p class="d-inline-block m-3 align-middle text-secondary">Instrucciones vía</p>
+                    <button type="button" class="btn btn-outline-warning">
+                        <img src="assets/images/icon_print.svg" alt="print" style="width: 25.4px">
+                    </button>
+                </div>
+                <div class="col-md-4 col-12 d-flex justify-content-center align-items-center">
+                    <p>
+                        <span class="text-secondary">Ayuda: </span>
+                        <a class="text-warning font-weight-bold" href="cont">contacto@redbus.pe</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-6">
+                    <figure class="d-flex justify-content-center align-items-center">
+                        <p class="d-inline-block text-secondary">Pago vía</p>
+                        <img class="pagoEfectivo-img" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo">
+                    </figure>
+                </div>
+            </div>
+        </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
