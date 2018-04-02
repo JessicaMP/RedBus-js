@@ -40,5 +40,94 @@ const agentes = [
           });       
      });
     
+     //First Carousel
+     function createSlick(){  
 
+    //  $(document).ready(function () {
+     $('.responsive').not('.slick-initialized').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            speed: 100
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            speed: 100
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            speed: 100
+            }
+          }
+        ]
+      });
+    }
+    createSlick();
+    $(window).on( 'resize', createSlick );
+      
+    function two() {
+      $('.multiple-items').not('.slick-initi').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1000,
+            settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            speed: 100
+            }
+          },
+          {
+            breakpoint: 776,
+            settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            speed: 100
+            }
+          },
+          {
+            breakpoint: 584,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            speed: 100
+            }
+          }
+        ]
+      });
+    }
+    two();
+    $(window).on( 'resize', two );
 
