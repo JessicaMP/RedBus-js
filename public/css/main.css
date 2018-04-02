@@ -49,6 +49,23 @@
   .timeBox h2 {
     font-size: 1.1rem;
   }
+  
+  .logo {
+    width: 200px;
+  }
+
+  .highligth {
+    border: 1px solid red;
+  }
+
+  figure {
+    display: inline-block;
+  }
+
+  
+  h2 {
+    font-size: 1.5rem;
+  }
 
   .timeBox h4 {
     font-size: 0.6rem;
