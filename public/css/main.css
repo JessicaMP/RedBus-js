@@ -15,8 +15,8 @@
     color: black;
   }
   
-  .alarm-img {
-    width: 10%;
+  .color-time-box {
+    background-color: rgb(255, 224, 123);
   }
   
   .border-img-color {
@@ -46,6 +46,10 @@
     cursor: pointer;
   }
 
+  .timeBox h2 {
+    font-size: 1.1rem;
+  }
+  
   .logo {
     width: 200px;
   }
@@ -63,22 +67,41 @@
     font-size: 1.5rem;
   }
 
-  h4 {
-    font-size: 1rem;
+  .timeBox h4 {
+    font-size: 0.6rem;
     text-align: center;
   }
 
-  .carousel-control-next-icon, .carousel-control-prev-icon{
-    color:red!important;
-    background-color: #fc0;
+  .timeBox p {
+    font-size: 0.5rem;
+  }
+
+  .timeIcon {
+    width: 20px;
+  }
+
+  .timeBox  h6 {
+    font-size: 0.8rem;
   }
 
 @media screen and (min-width: 720px) {
-  h2 {
+  .timeBox p {
+    font-size: 1rem;
+  }
+
+  .timeBox h2 {
     font-size: 2rem;
   }
 
-  h4 {
+  .timeBox h4 {
     font-size: 1.5rem;
+  }
+
+  .timeIcon {
+    width: 2.125rem;
+  } 
+  
+  .timeBox  h6 {
+    font-size: 1rem;
   }
 }
