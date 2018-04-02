@@ -19,10 +19,6 @@
     width: 10%;
   }
   
-  .color-time-box {
-    background-color: rgb(255, 224, 123);
-  }
-  
   .border-img-color {
     border: 2px solid #feb;
   }
@@ -70,6 +66,11 @@
   h4 {
     font-size: 1rem;
     text-align: center;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    color:red!important;
+    background-color: #fc0;
   }
 
 @media screen and (min-width: 720px) {
