@@ -50,3 +50,17 @@
   .cursor {
     cursor: pointer;
   }
+
+  .logo {
+    width: 200px;
+  }
+
+  .highligth {
+    border: 1px solid red;
+  }
+
+  figure {
+    display: inline-block;
+  }
+
+  
