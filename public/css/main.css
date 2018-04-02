@@ -1,0 +1,52 @@
+.pagoEfectivo-img {
+    width: 50%;
+  }
+  
+  .nav-tabs .nav-link.active {
+    color: #fc0 !important;
+    border-color: #fc0 #fc0 #fff!important;
+  }
+  
+  .eyelashes a {
+    color: #888;
+    font-weight: bold;
+  }
+  
+  .eyelashes a:hover {
+    color: black;
+  }
+  
+  .alarm-img {
+    width: 10%;
+  }
+  
+  .color-time-box {
+    background-color: rgb(255, 224, 123);
+  }
+  
+  .border-img-color {
+    border: 2px solid #feb;
+  }
+  
+  .border-right {
+    border-top-right-radius: .80rem!important;
+    border-bottom-right-radius: .80rem!important;
+  }
+  
+  .border-left {
+    border-top-left-radius: .80rem!important;
+    border-bottom-left-radius: .80rem!important;
+  }
+  
+  .border-link {
+    border-radius: .80rem!important;
+  }
+  
+  .instrucciones {
+    color:  #fc0;
+    font-size: 20px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }

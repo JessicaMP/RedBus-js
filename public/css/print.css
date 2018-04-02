@@ -1,0 +1,81 @@
+body {
+    visibility: hidden;
+    padding: 0 9.5em;
+} 
+
+.printMe, #printMe {
+    visibility: visible;
+}
+
+.instrucciones, .timeBox, .bank, .timeIcon, .instructionsPrint {
+    position: absolute;
+    width: 50%;
+}
+
+.instrucciones {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    top: 0;
+    left: 5.5em;
+}
+
+.timeBox {
+    top: 4.5em;
+    border-radius: 1rem;
+}
+
+.bank {
+    top: 28em;
+    left: 11em;
+}
+
+.timeIcon{
+    margin: 1.5rem 0;
+}
+
+.col-4, .col-3, .col-5 {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+.col-4 {
+    background-color: rgb(227,178,24);
+    text-align: center !important;
+}
+
+.col-3 {
+    background-color: #ddd;
+    text-align: center !important;
+}
+
+.color-time-box {
+    background-color: rgb(255, 224, 123);
+}
+
+.col-4 p, .col-4 h2 {
+    color: white;
+}
+
+.col-5 p, .col-5 h6 {
+    text-align: center !important;
+}
+
+p, h2, h4, h6 {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.instructionsPrint{
+    top: 38em;
+    color: gray;
+    font-size: 1rem;
+    text-align: justify ;
+}
