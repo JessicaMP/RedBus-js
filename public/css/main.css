@@ -142,6 +142,7 @@ font-size: 0.8rem;
 @media screen and (min-width: 720px) {
   .pagoEfectivo-img {
     width: 15%;
+    height: 50px;
   }
 
 .timeBox p {
