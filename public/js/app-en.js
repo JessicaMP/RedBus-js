@@ -23,7 +23,7 @@ const agentes = [
             const $img = $(this);
             if ($img.attr('alt') == obj.name){
                 $('.datos').remove()
-                $('.pasos').append( `<p class=datos>${obj.paso1}</p> <p class=datos>Enter your CIP code:9125682 and folow the instructions</p> ` 
+                $('.pasos').append( `<p class=datos> <img src="assets/images/one.svg" alt="Number One" class="numbers"> ${obj.paso1}</p> <p class=datos> <img src="assets/images/two.svg" alt="Number Two" class="numbers"> Enter your CIP code:9125682 and folow the instructions</p> ` 
                 )
             }              
           });       
