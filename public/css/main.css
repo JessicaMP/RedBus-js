@@ -1,5 +1,5 @@
 .pagoEfectivo-img {
-  width: 50%;
+  width: 35%;
 }
 
 .nav-tabs .nav-link.active {
@@ -135,7 +135,15 @@ font-size: 0.8rem;
   width: 45%;
 }
 
+.pay-cash {
+  text-align: left;
+}
+
 @media screen and (min-width: 720px) {
+  .pagoEfectivo-img {
+    width: 15%;
+  }
+
 .timeBox p {
   font-size: 1rem;
 }
@@ -160,6 +168,9 @@ font-size: 0.8rem;
   height: 18vh;
 }
 
+.pay-cash {
+  text-align: right;
+}
 
 .contact-letter p, .contact-letter a, .contact-letter span {
   font-size: 1rem;

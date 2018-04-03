@@ -35,7 +35,7 @@ const agentes = [
             if ($img.attr('alt') == obj.name){
                 $('.informacion').remove()
                 $('.info').html('');
-                const insert = ( `<p class="informacion col"><span class="c-orange">${obj.att1}</span> ${obj.info1}</p> <p class="informacion col text-right"><span class="c-orange">${obj.att2}</span> ${ obj.info2}</p>`)
+                const insert = ( `<p class="informacion col-md col-12"><span class="c-orange">${obj.att1}</span> ${obj.info1}</p> <p class="informacion col-md col-12 pay-cash"><span class="c-orange">${obj.att2}</span> ${ obj.info2}</p>`)
                 $('.info').append(insert);
               }              
           });       

@@ -13,15 +13,16 @@
 </head>
 
 <body class="container">
-    <header class="media mt-2">
-        <figure>
-            <img class="pagoEfectivo-img ml-2" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo" />
-        </figure>
-        <div>
-            <a href="index.html">Espanish</a>
-            <a href="ingles.html">English</a>
+    <header class="mt-0 ml-3 mr-4 col-md-12 col-10">
+        <div class=" row justify-content-between">
+            <img class="pagoEfectivo-img" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo" />
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <p class="text-dark">
+                    <a href="index.html" class="c-orange">ES</a> |
+                    <a href="ingles.html" class="c-orange">EN</a>
+                </p>
+            </div>
         </div>
-
     </header>
     <main>
         <nav id='banca'>
@@ -110,49 +111,53 @@
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                 <!--Pagar en efectivo-->
                 <!--=====2 Carousel =====-->
-                <span class="text-secondary ml-4 mb-0 subinfo d-inline-block">Selecciona donde quieres pagar</span>
+                <span class="text-secondary ml-4 mb-0 subinfo d-inline-block ">Selecciona donde quieres pagar</span>
 
                 <div id="carouselExampleControlstwo" class="carousel slide d-none d-xl-block" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active col-12">
-                                <div class="row justify-content-between">
-                            <figure class="ml-3">
-                                <img class='logo' src="assets/images/logo-bcp.svg" alt="bcp">
-                                <figcaption class="text-center ml-4">Agentes y Bodegas <br> Agencias</figcaption>
-                            </figure>
-                            <figure>
-                                <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
-                                <figcaption class="text-center ml-4">Agentes y Bodegas <br> Agencias</figcaption>
-                            </figure>
-                            <figure>
-                                <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
-                                <figcaption class="text-center ml-4">Agentes y Bodegas <br> Agencias</figcaption>
-                            </figure>
-                            <figure class="mr-3">
-                                <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
-                                <figcaption class="text-center ml-4">Agencias</figcaption>
-                            </figure>
+                            <div class="row justify-content-between">
+                                <figure class="ml-3">
+                                    <img class='logo' src="assets/images/logo-bcp.svg" alt="bcp">
+                                    <figcaption class="text-center ml-4">Agentes y Bodegas
+                                        <br> Agencias</figcaption>
+                                </figure>
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
+                                    <figcaption class="text-center ml-4">Agentes y Bodegas
+                                        <br> Agencias</figcaption>
+                                </figure>
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
+                                    <figcaption class="text-center ml-4">Agentes y Bodegas
+                                        <br> Agencias</figcaption>
+                                </figure>
+                                <figure class="mr-3">
+                                    <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
+                                    <figcaption class="text-center ml-4">Agencias</figcaption>
+                                </figure>
+                            </div>
                         </div>
-                    </div>
                         <div class="carousel-item col-12">
-                                <div class="row justify-content-between">
-                            <figure class="ml-3">
-                                <img class='logo' src="assets/images/logo-fullcarga.png" alt="fullcarga">
-                                <figcaption class="text-center ml-4">Agentes y Bodegas</figcaption>
-                            </figure>
-                            <figure>
-                                <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
-                                <figcaption class="text-center ml-4">Agentes y Bodegas <br>Agencias </figcaption>
-                            </figure>
-                            <figure>
-                                <img class='logo' src="assets/images/logo-westerUnion.svg" alt="westerUnion">
-                                <figcaption class="text-center ml-4">Agentes y Bodegas </figcaption>
-                            </figure>
-                            <figure class="mr-3">
-                                <img class='logo' src="assets/images/logo-kasnet.png" alt="kasnet">
-                                <figcaption class="text-center ml-4">Agentes y Bodegas </figcaption>
-                            </figure>
-                        </div>
+                            <div class="row justify-content-between">
+                                <figure class="ml-3">
+                                    <img class='logo' src="assets/images/logo-fullcarga.png" alt="fullcarga">
+                                    <figcaption class="text-center ml-4">Agentes y Bodegas</figcaption>
+                                </figure>
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
+                                    <figcaption class="text-center ml-4">Agentes y Bodegas
+                                        <br>Agencias </figcaption>
+                                </figure>
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-westerUnion.svg" alt="westerUnion">
+                                    <figcaption class="text-center ml-4">Agentes y Bodegas </figcaption>
+                                </figure>
+                                <figure class="mr-3">
+                                    <img class='logo' src="assets/images/logo-kasnet.png" alt="kasnet">
+                                    <figcaption class="text-center ml-4">Agentes y Bodegas </figcaption>
+                                </figure>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControlstwo" role="button" data-slide="prev">
@@ -169,24 +174,28 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active col-12">
                                     <div class="row justify-content-between">
-                                    <figure class="ml-1">
-                                        <img class='logo ' src="assets/images/logo-bcp.svg" alt="bcp">
-                                        <figcaption class="text-center">Agentes y Bodegas <br>Agencias</figcaption>
-                                    </figure>
-                                    <figure>
-                                        <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
-                                        <figcaption class="text-center">Agentes y Bodegas <br> Agencias</figcaption>
-                                    </figure>
-                                    <figure class="mr-3">
-                                        <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
-                                        <figcaption class="text-center">Agentes y Bodegas <br> Agencias</figcaption>
-                                    </figure>
-                                </div>
+                                        <figure class="ml-1">
+                                            <img class='logo ' src="assets/images/logo-bcp.svg" alt="bcp">
+                                            <figcaption class="text-center">Agentes y Bodegas
+                                                <br>Agencias</figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
+                                            <figcaption class="text-center">Agentes y Bodegas
+                                                <br> Agencias</figcaption>
+                                        </figure>
+                                        <figure class="mr-3">
+                                            <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
+                                            <figcaption class="text-center">Agentes y Bodegas
+                                                <br> Agencias</figcaption>
+                                        </figure>
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
                                     <figure class="ml-1">
                                         <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
-                                        <figcaption class="text-center">Agentes y Bodegas <br> Agencias</figcaption>
+                                        <figcaption class="text-center">Agentes y Bodegas
+                                            <br> Agencias</figcaption>
                                     </figure>
                                     <figure>
                                         <img class='logo' src="assets/images/logo-fullcarga.png" alt="fullcarga">
@@ -196,7 +205,8 @@
                                     </figure>
                                     <figure class="mr-3">
                                         <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
-                                        <figcaption class="text-center">Agentes y Bodegas <br> Agencias</figcaption>
+                                        <figcaption class="text-center">Agentes y Bodegas
+                                            <br> Agencias</figcaption>
                                     </figure>
                                 </div>
                                 <div class="carousel-item">
@@ -223,7 +233,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                             <span class="text-secondary ml-1 subinfo mb-3 d-inline-block">Puedes pagar desde la Web o App móvil del Banco</span>
+                            <span class="text-secondary ml-1 subinfo mb-3 d-inline-block d-block d-xl-none">Puedes pagar desde la Web o App móvil del Banco</span>
                             <p class="instrucciones">Instrucciones de pago</p>
                             <p class="mb-0">Indica que vas a realizar un pago a la empresa PAGOEFECTIVO</p>
                             <p>Indica el código CIP:9125682 y el importe a pagar en Soles</p>
@@ -245,25 +255,25 @@
         </div>
     </main>
     <footer class="footer mb-2">
-            <div class="row justify-content-between">
-                <div class="col-md-3 col-12 d-flex justify-content-center align-items-center">
-                    <p class="d-inline-block m-3 align-middle text-secondary">Instrucciones vía</p>
-                    <button type="button" class="btn btn-outline-warning">
-                        <img src="assets/images/icon_print.svg" alt="print" style="width: 25.4px">
-                    </button>
-                </div>
-                <div class="col-md-4 col-6 d-flex justify-content-center text-center align-items-center contact-letter">
-                    <p>
-                        <span class="text-secondary">Ayuda: </span>
-                        <a class="text-warning font-weight-bold" href="cont">contacto@redbus.pe</a>
-                    </p>
-                </div>
-                <div class="col-md-4 col-5 text-center text-secondary nav-item d-flex align-items-center justify-content-center ">
-                    Pago vía
-                    <img class="pagoEfectivo-img-footer align-items-center" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo">
-                </div>
+        <div class="row justify-content-between">
+            <div class="col-md-3 col-12 d-flex justify-content-center align-items-center">
+                <p class="d-inline-block m-3 align-middle text-secondary">Instrucciones vía</p>
+                <button type="button" class="btn btn-outline-warning">
+                    <img src="assets/images/icon_print.svg" alt="print" style="width: 25.4px">
+                </button>
             </div>
-        </footer>
+            <div class="col-md-4 col-6 d-flex justify-content-center text-center align-items-center contact-letter">
+                <p>
+                    <span class="text-secondary">Ayuda: </span>
+                    <a class="text-warning font-weight-bold" href="cont">contacto@redbus.pe</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-5 text-center text-secondary nav-item d-flex align-items-center justify-content-center ">
+                Pago vía
+                <img class="pagoEfectivo-img-footer align-items-center" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo">
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
