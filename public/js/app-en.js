@@ -23,7 +23,7 @@ const agentes = [
             const $img = $(this);
             if ($img.attr('alt') == obj.name){
                 $('.datos').remove()
-                $('.pasos').append( `<p class=datos> <img src="assets/images/one.svg" alt="Number One" class="numbers"> ${obj.paso1}</p> <p class=datos> <img src="assets/images/two.svg" alt="Number Two" class="numbers"> Enter your CIP code:9125682 and folow the instructions</p> ` 
+                $('.pasos').append( `<p class='datos text-secondary'> <img src="assets/images/one.svg" alt="Number One" class="numbers"> ${obj.paso1}</p> <p class='datos text-secondary'> <img src="assets/images/two.svg" alt="Number Two" class="numbers text-secondary"> Enter your CIP code:9125682 and folow the instructions</p> ` 
                 )
             }              
           });       
@@ -36,7 +36,7 @@ const agentes = [
             if ($img.attr('alt') == obj.name){
                 $('.informacion').remove()
                 $('.info').html('');
-                const insert = ( `<p class="informacion col-md col-12"><span class="c-orange">${obj.att1}</span> ${obj.info1}</p> <p class="informacion col-md col-12 pay-cash"><span class="c-orange">${obj.att2}</span> ${ obj.info2}</p>`)
+                const insert = ( `<p class="informacion col-md col-12 text-secondary"><span class="c-orange">${obj.att1}</span> ${obj.info1}</p> <p class="informacion col-md col-12 pay-cash text-secondary"><span class="c-orange">${obj.att2}</span> ${ obj.info2}</p>`)
                 $('.info').append(insert);
             }              
           });       
