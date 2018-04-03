@@ -16,17 +16,25 @@ const agentes = [
     { name: 'kasnet', id: 8, img: 'assets/images/logo-kasnet.svg', att1: '', info1: '', att2: '', info2: '' }
 ]
   
+$(document).ready(function() {
+  
 
     const arrayPasos = bancos.map(function(obj){ 
+      const insert = ( `<img class='logo' src=${obj.img} alt="bcp">`)
+      $('.row').find('.images-cont').append( `<img class='logo cursor' src=${obj.img} alt=${obj.name}>`);
 
-        $('img').click(function(){
+      $('.images-cont').find('.logo').click(function(){
+        $(this).removeClass('border-img printMe').addClass('border-img printMe');
+        $(this).siblings().removeClass('border-img');
             const $img = $(this);
             if ($img.attr('alt') == obj.name){
+                // this.setAttribute("border", "2px solid yellow");
                 $('.datos').remove();
                 $('.pasos').append( `<p class='datos text-secondary'><img src="assets/images/one.svg" alt="Number One" class="numbers"> Ingresa tu codigo CIP:9125682 y sigue los pasos</p> <p class='datos text-secondary'> <img src="assets/images/two.svg" alt="Number Two" class="numbers"> ${obj.paso1}</p>`);
             }              
           });       
      });
+    })
     
      const arrayInfo = agentes.map(function(obj){ 
 
@@ -41,7 +49,9 @@ const agentes = [
           });       
      });
 
+
 //Impresión
-$('#print').click(function() {
+$('#printpage').click(function() {
+  console.log('holi');
   window.print();
 });
