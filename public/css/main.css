@@ -38,8 +38,9 @@
   }
   
   .instrucciones {
-    color:  #fc0;
+    color:  rgb(224,170,0);
     font-size: 20px;
+    font-weight: 400;
   }
   
   .cursor {
@@ -68,7 +69,7 @@
   }
 
   .timeBox h4 {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     text-align: center;
   }
 
@@ -81,7 +82,7 @@
   }
 
   .timeBox  h6 {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 
   .bif {
@@ -95,6 +96,27 @@
   .informacion:nth-child(1) {
     margin-right: 26%;
   }
+
+.numbers {
+  width: 1.5rem;
+}
+
+.subinfo {
+  font-size: 1rem;
+}
+
+.bg-orange {
+  background-color: rgb(224,170,0);
+}
+
+.c-orange {
+  color: rgb(224,170,0);
+}
+
+.h-25-vh{
+  height: 20vh;
+}
+
 @media screen and (min-width: 720px) {
   .timeBox p {
     font-size: 1rem;
@@ -121,16 +143,20 @@
 @media screen and (max-width: 720px) {
 
   .logo {
-    width: 115px;
+    width: 105px;
   }
 
   .margin-left {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 figcaption {
   font-size: 10px;
   margin-left: 40px;
+}
+
+.subinfo {
+  font-size: 0.9rem;
 }
   
 }
@@ -150,9 +176,6 @@ figcaption {
       margin-left: 20px;
   }
 
-  figure:nth-child(1) {
-    margin-left: 100px;
-}
 
   
   }
