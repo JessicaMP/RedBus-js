@@ -111,13 +111,13 @@
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 720px) {
 
   .logo {
-    width: 120px;
+    width: 115px;
   }
 
-  .logo:nth-child(1) {
+  .margin-left {
     margin-left: 40px;
 }
 
