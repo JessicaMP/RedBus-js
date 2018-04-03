@@ -1,11 +1,11 @@
-const bancos = [{name: 'bcp', id: 1, img: 'assets/images/logo-bcp.svg', paso1: 'Select the option Payment of Services > COMPANIES > PAGOEFECTIVO > PAGOEFECTIVOSOLES' },
+const banco = [{name: 'bcp', id: 1, img: 'assets/images/logo-bcp.svg', paso1: 'Select the option Payment of Services > COMPANIES > PAGOEFECTIVO > PAGOEFECTIVOSOLES' },
     { name: 'bbva', id: 2, img: 'assets/images/logo-bbva.svg', paso1: 'Select the option Payment of Services > From Institutions and Companies > Search by name > PAGOEFECTIVO > PAGOEFECTIVOSOLES' },
     { name: 'interbank', id: 3, img: 'assets/images/logo-interbank.svg', paso1: 'Select the option Payment to Institutions or Company > Company PAGOEFECTIVO > Service PAGOEFECTIVO' },
     { name: 'scotiabank', id: 4, img: 'assets/images/logo-scotiabank.svg', paso1: 'Select the option Payments > Other Institutions> Others > Search by Company / Service: PAGOEFECTIVO > Select: PAGOEFECTIVO SOLES' },
     { name: 'banbif', id: 5, img: 'assets/images/logo-banbif.svg', paso1: 'Select the option Payment of Services > Search by Company and type EFFECTIVE PAYMENT > Select the company PAGOEFECTIVO' }
 ]
 
-const agentes = [
+const agente = [
     { name: 'bcp', id: 1, att1: '(*)',img: 'assets/images/logo-bcp.svg', info1: 'BCP Agents: Provide the company code 02186', att2: '(*)',info2: 'BCP agencies: Additional cost: S / 1.00' },
     { name: 'bbva', id: 2,  att1: '',img: 'assets/images/logo-bbva.svg', info1: '', att2: '',info2: '' },
     { name: 'interbank', id: 3,att1: '(*)', img: 'assets/images/logo-interbank.svg', info1: 'Interbank Agents: Provides company code 2735001', att2: '(*)',info2: 'Interbank Market Agencies: Additional cost: S / 2.00' },
@@ -17,7 +17,7 @@ const agentes = [
 ]
   
 
-    const arrayPasos = bancos.map(function(obj){ 
+    const arrayP = banco.map(function(obj){ 
 
         $('img').click(function(){
             const $img = $(this);
@@ -29,7 +29,7 @@ const agentes = [
           });       
      });
     
-     const arrayInfo = agentes.map(function(obj){ 
+     const arrayI = agente.map(function(obj){ 
 
         $('img').click(function(){
             const $img = $(this);
