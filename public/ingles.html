@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+    <title>RedBus</title>
+</head>
+
+<body class="container">
+    <header class="media">
+        <figure>
+            <img class="pagoEfectivo-img" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo" />
+        </figure>
+    </header>
+    <main>
+        <nav id='banca'>
+            <div class="nav nav-tabs border-warning eyelashes  pl-3" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active py-1" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                    aria-selected="true">Online Banking</a>
+                <a class="nav-item nav-link py-1" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                    aria-selected="false">Pay Bye Cash</a>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="row m-4 printMe timeBox">
+                <div class="col-xl-3 col-4 d-flex flex-column align-items-center p-3 bg-warning border-left">
+                    <p class="text-light mb-0">Payment Code</p>
+                    <div>
+                        <h2 class="mb-0 text-center text-light font-weight-bold">9125682</h2>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-3 d-flex flex-column align-items-center p-3 bg-light">
+                    <h6 class="align-middle">TOTAL</h6>
+                    <div>
+                        <h4>S/. 140.00</h4>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-5 d-flex justify-content-center align-items-center p-3 color-time-box border-right">
+                    <img class="mr-0 timeIcon" src="assets/images/icon_time.svg" alt="Generic placeholder image">
+                    <div class="media-body col-md-8 p-0">
+                        <p class="text-center mb-0">Your order will expire:</p>
+                        <h6 class="text-center">23 Feb - 1:12 p.m.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <!--Banca por internet-->
+                <!--=====1 Carousel =====-->
+                <p class="pl-3">Select your bank</p>
+                <div class="container">
+                    <div class="row d-none d-xl-block">
+                        <div class="col">
+                            <img class='logo' src="assets/images/logo-bcp.svg" alt="bcp">
+                            <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
+                            <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
+                            <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
+                            <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
+                        </div>
+                    </div>
+
+                    <div class="row d-block d-xl-none">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class='logo' src="assets/images/logo-bcp.svg" alt="bcp">
+                                        <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
+                                        <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
+                                        <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <img src="assets/images/next.svg" alt="previous" style='width: 10%'>
+                                </a>
+                            </div>
+                    </div>
+                    <p class="pt-3 pb-4">You can pay through the web or the mobile app of each Bank </p>
+                    <div class="row">
+                        <div class="col">
+                            <p class="instrucciones">Payment instructions</p>
+                            <div class="pasos">
+                                <p class=datos>Select the option Payment of Services > Of enterprises and institutions > search by name > PAGOEFECTIVO > PAGOEFECTIVOSOLES</p>
+                                <p class=datos>Enter your CIP code:9125682 and folow the instructions</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-danger btn-lg btn-block mt-4 mb-4 border-link">
+                            <a href="#banca" style="text-decoration: none; color:white">
+                                <img src="assets/images/icon_arrow.svg" alt="Arrow image" style="width:24px; margin-right:5px"> Go to online Banking</a>
+                        </button>
+                    </div>
+                </div>
+                
+                <!--=====1 Carousel end =====-->
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <!--Pagar en efectivo-->
+                <!--=====2 Carousel =====-->
+                <p class="pl-4">Select your bank</p>
+                <div id="carouselExampleControlstwo" class="carousel slide d-none d-xl-block" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active col-12">
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-bcp.svg" alt="bcp">
+                                    <figcaption class="text-center">Agents, agencies and</figcaption>
+                                    <figcaption class="text-center">grocery stores</figcaption>
+                                </figure>
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
+                                    <figcaption class="text-center">Agents, agencies and</figcaption>
+                                    <figcaption class="text-center">grocery stores</figcaption>
+                                </figure>
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
+                                    <figcaption class="text-center">Agents, agencies and</figcaption>
+                                    <figcaption class="text-center">grocery stores</figcaption>
+                                </figure>
+                                <figure>
+                                    <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
+                                    <figcaption class="text-center">Agencies</figcaption>
+                                    <figcaption class="text-center bif">Agentes y Bodegas</figcaption>
+                                </figure>
+                        </div>
+                        <div class="carousel-item">
+
+                            <figure>
+                                <img class='logo' src="assets/images/logo-fullcarga.png" alt="fullcarga">
+                                <figcaption class="text-center">Agents and grocery</figcaption>
+                                <figcaption class="text-center">stores</figcaption>
+                            </figure>
+                            <figure>
+                                <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
+                                <figcaption class="text-center">Agents and grocery</figcaption>
+                                <figcaption class="text-center">stores</figcaption>
+                            </figure>
+                            <figure>
+                                <img class='logo' src="assets/images/logo-westerUnion.svg" alt="westerUnion">
+                                <figcaption class="text-center">Agents and grocery</figcaption>
+                                <figcaption class="text-center">stores</figcaption>
+                            </figure>
+                            <figure>
+                                <img class='logo' src="assets/images/logo-kasnet.png" alt="kasnet">
+                                <figcaption class="text-center">Agents and grocery</figcaption>
+                                <figcaption class="text-center">stores</figcaption>
+                            </figure>
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControlstwo" role="button" data-slide="prev">
+                        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span> -->
+                        <img src="assets/images/previous.svg" alt="previous" style='width: 10%'>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControlstwo" role="button" data-slide="next">
+                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span> -->
+                        <img src="assets/images/next.svg" alt="previous" style='width: 10%'>
+                    </a>
+                </div>
+
+              
+
+                <div class="row d-block d-xl-none">
+                    <div class="col">
+                        <div id="carouselExampleControlsthrid" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                
+                                <div class="carousel-item active">
+                                    <figure>
+                                        <img class='logo margin-left' src="assets/images/logo-bcp.svg" alt="bcp">
+                                        <figcaption class="text-center">Agents, agencies and</figcaption>
+                                        <figcaption class="text-center">grocery stores</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
+                                        <figcaption class="text-center">Agents, agencies and</figcaption>
+                                        <figcaption class="text-center">grocery stores</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
+                                        <figcaption class="text-center">Agents, agencies and</figcaption>
+                                        <figcaption class="text-center">grocery stores</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="carousel-item">
+                                    <figure>
+                                        <img class='logo  margin-left' src="assets/images/logo-banbif.svg" alt="banbif">
+                                        <figcaption class="text-center">Agencies</figcaption>
+                                        <figcaption class="text-center bif">Agentes y Bodegas</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img class='logo' src="assets/images/logo-fullcarga.png" alt="fullcarga">
+                                        <figcaption class="text-center">Agents and grocery</figcaption>
+                                        <figcaption class="text-center">stores</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
+                                        <figcaption class="text-center">Agents and grocery</figcaption>
+                                        <figcaption class="text-center">stores</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="carousel-item">
+                                    <figure>
+                                        <img class='logo  margin-left' src="assets/images/logo-westerUnion.svg" alt="westerUnion">
+                                        <figcaption class="text-center">Agents and grocery</figcaption>
+                                        <figcaption class="text-center">stores</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img class='logo' src="assets/images/logo-kasnet.png" alt="kasnet">
+                                        <figcaption class="text-center">Agents and grocery</figcaption>
+                                        <figcaption class="text-center">stores</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControlsthrid" role="button" data-slide="prev">
+                                <img src="assets/images/previous.svg" alt="previous" style='width: 10%'>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControlsthrid" role="button" data-slide="next">
+                                <img src="assets/images/next.svg" alt="previous" style='width: 10%'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p class="instrucciones">Payment instructions</p>
+                            <p>State that you are going to make a payment to the company PAGOEFECTIVO</p>
+                            <p>Provide the CIP code: 9125682 and the amount to be paid in Soles</p>
+                            <div class="info"></div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-danger btn-lg btn-block mt-4 mb-4 border-link">
+                        <a href="https://ubicanos.pagoefectivo.pe/#/?tienda=[idServicio]&moneda=1&monto=100.00&ubicame=true&_k=ws2owh" target="_black" style="text-decoration: none; color:white">
+                            <img src="assets/images/icon_arrow.svg" alt="Arrow image" style="width:24px; margin-right:5px">Find your payment point </a>
+                    </button>
+                </div>
+
+                <!--=====2 Carousel end =====-->
+            </div>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="row justify-content-between">
+            <div class="col-md-3 col-12 d-flex justify-content-center align-items-center">
+                <p class="d-inline-block m-3 align-middle text-secondary">Instructions</p>
+                <button type="button" class="btn btn-outline-warning">
+                    <img src="assets/images/icon_print.svg" alt="print" style="width: 25.4px">
+                </button>
+            </div>
+            <div class="col-md-4 col-6 d-flex justify-content-center text-center align-items-center">
+                <p>
+                    <span class="text-secondary">Assistance: </span>
+                    <a class="text-warning font-weight-bold" href="cont">contacto@redbus.pe</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-5 text-center text-secondary nav-item ">
+                Payment by
+                <img class="pagoEfectivo-img align-items-center" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo" style="width: 120px">
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/app-en.js"></script>
+</body>
+
+</html>
