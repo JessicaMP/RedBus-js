@@ -7,15 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous" media="screen">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <title>RedBus</title>
 </head>
 
 <body class="container">
-    <header class="mt-0 ml-1 mr-5 col-md-12 col-10 mb-3">
+    <header class="mt-0 mb-3 mr-4 col-md-12 col-10">
         <div class=" row justify-content-between">
             <img class="pagoEfectivo-img" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo" />
             <div class="d-flex flex-column align-items-center justify-content-center">
@@ -30,15 +28,15 @@
         <nav id='banca'>
             <div class="nav nav-tabs border-warning eyelashes  pl-3" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active py-1" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
-                    aria-selected="true">Banca por internet</a>
+                    aria-selected="true">Online Banking</a>
                 <a class="nav-item nav-link py-1" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
-                    aria-selected="false">Pagar en efectivo</a>
+                    aria-selected="false">Pay Bye Cash</a>
             </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
             <div class="row ml-4 mr-4 mb-2 mt-3 printMe timeBox">
                 <div class="col-xl-3 col-4 d-flex flex-column align-items-center justify-content-center bg-orange border-left h-25-vh">
-                    <p class="text-light mb-0">Código de pago</p>
+                    <p class="text-light mb-0">Payment Code</p>
                     <div>
                         <h2 class="mb-0 text-center text-light font-weight-bold">9125682</h2>
                     </div>
@@ -52,7 +50,7 @@
                 <div class="col-xl-4 col-5 d-flex justify-content-center align-items-center h-25-vh color-time-box border-right">
                     <img class="mr-0 timeIcon" src="assets/images/icon_time.svg" alt="Generic placeholder image">
                     <div class="media-body col-md-8 p-0">
-                        <p class="text-center mb-0">Tu orden expirará</p>
+                        <p class="text-center mb-0">Your order will expire:</p>
                         <h6 class="text-center">23 Feb - 01:12 p.m.</h6>
                     </div>
                 </div>
@@ -60,7 +58,7 @@
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <!--Banca por internet-->
                 <!--=====1 Carousel =====-->
-                <span class="text-secondary ml-4 mb-0 subinfo d-inline-block">Selecciona donde quieres pagar</span>
+                <span class="text-secondary ml-4 mb-0 subinfo d-inline-block">Select your bank</span>
                 <div class="container">
                     <div class="row d-none d-xl-block">
                         <div class="row justify-content-between">
@@ -85,7 +83,6 @@
                                     <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
                                 </div>
                             </div>
-
                             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                                 <img src="assets/images/next.svg" alt="previous" style='width: 10%'>
                             </a>
@@ -93,50 +90,52 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <span class="text-secondary ml-1 subinfo mb-3 d-inline-block">Puedes pagar desde la Web o App móvil del Banco</span>
-                            <p class="instrucciones">Instrucciones de pago</p>
+                            <span class="text-secondary ml-1 subinfo mb-3 d-inline-block">You can pay through the web or the mobile app of each Bank</span>
+                            <p class="instrucciones">Payment instructions</p>
                             <div class="pasos">
                                 <p class='datos text-secondary'>
-                                    <img src="assets/images/one.svg" alt="Number One" class="numbers"> Ingresa tu codigo CIP:9125682 y sigue los pasos</p>
+                                    <img src="assets/images/one.svg" alt="Number One" class="numbers"> Select the option Payment of Services > Of enterprises and institutions > search by
+                                    name > PAGOEFECTIVO > PAGOEFECTIVOSOLES</p>
                                 <p class='datos text-secondary'>
-                                    <img src="assets/images/two.svg" alt="Number Two" class="numbers"> Selecciona la opción Pago de Servicios > EMPRESAS > PAGOEFECTIVO > PAGOEFECTIVOSOLES</p>
+                                    <img src="assets/images/two.svg" alt="Number Two" class="numbers"> Enter your CIP code:9125682 and folow the instructions</p>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-danger btn-lg btn-block mt-2 mb-2 border-link">
+                        <button type="button" class="btn btn-danger btn-lg btn-block mt-2 mb-4 border-link">
                             <a href="#banca" style="text-decoration: none; color:white">
-                                <img src="assets/images/icon_arrow.svg" alt="Arrow image" style="width:24px; margin-right:5px"> Ir a banca por internet</a>
+                                <img src="assets/images/icon_arrow.svg" alt="Arrow image" style="width:24px; margin-right:5px"> Go to online Banking</a>
                         </button>
                     </div>
                 </div>
+
                 <!--=====1 Carousel end =====-->
             </div>
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                 <!--Pagar en efectivo-->
                 <!--=====2 Carousel =====-->
-                <span class="text-secondary ml-4 mb-0 subinfo d-inline-block ">Selecciona donde quieres pagar</span>
-
+                <span class="text-secondary ml-4 mb-0 subinfo d-inline-block">Select your bank</span>
                 <div id="carouselExampleControlstwo" class="carousel slide d-none d-xl-block" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active col-12">
                             <div class="row justify-content-between">
                                 <figure class="ml-3">
                                     <img class='logo' src="assets/images/logo-bcp.svg" alt="bcp">
-                                    <figcaption class="text-secondary text-center ml-4">Agentes y Bodegas
-                                        <br> Agencias</figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery stores</figcaption>
                                 </figure>
                                 <figure>
                                     <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
-                                    <figcaption class="text-secondary text-center ml-4">Agentes y Bodegas
-                                        <br> Agencias</figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery stores</figcaption>
                                 </figure>
                                 <figure>
                                     <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
-                                    <figcaption class="text-secondary text-center ml-4">Agentes y Bodegas
-                                        <br> Agencias</figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery stores</figcaption>
                                 </figure>
                                 <figure class="mr-3">
                                     <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
-                                    <figcaption class="text-secondary text-center ml-4">Agencias</figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery stores</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -144,20 +143,23 @@
                             <div class="row justify-content-between">
                                 <figure class="ml-3">
                                     <img class='logo' src="assets/images/logo-fullcarga.png" alt="fullcarga">
-                                    <figcaption class="text-secondary text-center ml-4">Agentes y Bodegas</figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery stores</figcaption>
                                 </figure>
                                 <figure>
                                     <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
-                                    <figcaption class="text-secondary text-center ml-4">Agentes y Bodegas
-                                        <br>Agencias </figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery storesy</figcaption>
                                 </figure>
                                 <figure>
                                     <img class='logo' src="assets/images/logo-westerUnion.svg" alt="westerUnion">
-                                    <figcaption class="text-secondary text-center ml-4">Agentes y Bodegas </figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery stores</figcaption>
                                 </figure>
                                 <figure class="mr-3">
                                     <img class='logo' src="assets/images/logo-kasnet.png" alt="kasnet">
-                                    <figcaption class="text-secondary text-center ml-4">Agentes y Bodegas </figcaption>
+                                    <figcaption class="text-secondary text-center ml-4">Agents, agencies and
+                                        <br> grocery stores</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -170,6 +172,8 @@
                     </a>
                 </div>
 
+
+
                 <div class="row d-block d-xl-none">
                     <div class="col">
                         <div id="carouselExampleControlsthrid" class="carousel slide" data-ride="carousel">
@@ -177,48 +181,49 @@
                                 <div class="carousel-item active col-12">
                                     <div class="row justify-content-between">
                                         <figure class="ml-1">
-                                            <img class='logo ' src="assets/images/logo-bcp.svg" alt="bcp">
-                                            <figcaption class="text-secondary text-center">Agentes y Bodegas
-                                                <br>Agencias</figcaption>
+                                            <img class='logo margin-left' src="assets/images/logo-bcp.svg" alt="bcp">
+                                            <figcaption class="text-secondary text-center">Agents, agencies and
+                                                    <br> grocery stores</figcaption>
                                         </figure>
                                         <figure>
                                             <img class='logo' src="assets/images/logo-bbva.svg" alt="bbva">
-                                            <figcaption class="text-secondary text-center">Agentes y Bodegas
-                                                <br> Agencias</figcaption>
+                                            <figcaption class="text-secondary text-center">Agents, agencies and
+                                                    <br> grocery stores</figcaption>
                                         </figure>
                                         <figure class="mr-3">
                                             <img class='logo' src="assets/images/logo-interbank.svg" alt="interbank">
-                                            <figcaption class="text-secondary text-center">Agentes y Bodegas
-                                                <br> Agencias</figcaption>
+                                            <figcaption class="text-secondary text-center">Agents, agencies and
+                                                    <br> grocery stores</figcaption>
                                         </figure>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <figure class="ml-1">
-                                        <img class='logo' src="assets/images/logo-banbif.svg" alt="banbif">
-                                        <figcaption class="text-secondary text-center">Agentes y Bodegas
-                                            <br> Agencias</figcaption>
+                                        <img class='logo  margin-left' src="assets/images/logo-banbif.svg" alt="banbif">
+                                        <figcaption class="text-secondary text-center">Agents, agencies and
+                                                    <br> grocery stores</figcaption>
                                     </figure>
                                     <figure>
                                         <img class='logo' src="assets/images/logo-fullcarga.png" alt="fullcarga">
-                                        <figcaption class="text-secondary text-center">Agentes y Bodegas</figcaption>
-                                        <figcaption class="text-secondary text-center">.</figcaption>
-
+                                        <figcaption class="text-secondary text-center">Agents, agencies and
+                                                <br> grocery stores</figcaption>
                                     </figure>
                                     <figure class="mr-3">
                                         <img class='logo' src="assets/images/logo-scotiabank.svg" alt="scotiabank">
-                                        <figcaption class="text-secondary text-center">Agentes y Bodegas
-                                            <br> Agencias</figcaption>
+                                        <figcaption class="text-secondary text-center">Agents, agencies and
+                                                <br> grocery stores</figcaption>
                                     </figure>
                                 </div>
                                 <div class="carousel-item">
                                     <figure class="ml-3">
-                                        <img class='logo' src="assets/images/logo-westerUnion.svg" alt="westerUnion">
-                                        <figcaption class="text-secondary text-center">Agentes y Bodegas</figcaption>
+                                        <img class='logo  margin-left' src="assets/images/logo-westerUnion.svg" alt="westerUnion">
+                                        <figcaption class=" text-secondary text-center">Agents, agencies and
+                                                <br> grocery stores</figcaption>
                                     </figure>
                                     <figure>
                                         <img class='logo' src="assets/images/logo-kasnet.png" alt="kasnet">
-                                        <figcaption class="text-secondary text-center">Agentes y Bodegas</figcaption>
+                                        <figcaption class="text-secondary text-center">Agents, agencies and
+                                                <br> grocery stores</figcaption>
                                     </figure>
                                 </div>
                             </div>
@@ -235,19 +240,18 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <span class="text-secondary ml-1 subinfo mb-3 d-inline-block d-block d-xl-none">Puedes pagar desde la Web o App móvil del Banco</span>
-                            <p class="instrucciones">Instrucciones de pago</p>
-                            <p class="mb-0 text-secondary">Indica que vas a realizar un pago a la empresa PAGOEFECTIVO</p>
-                            <p class="text-secondary">Indica el código CIP:9125682 y el importe a pagar en Soles</p>
-                            <div class="info row">
-
-                            </div>
+                            <span class="text-secondary ml-1 subinfo mb-3 d-inline-block d-block d-xl-none">
+                                    You can pay from the Web or Mobile Application of the Bank</span>
+                            <p class="instrucciones">Payment instructions</p>
+                            <p class="mb-0 text-secondary">State that you are going to make a payment to the company PAGOEFECTIVO</p>
+                            <p class="text-secondary">Provide the CIP code: 9125682 and the amount to be paid in Soles</p>
+                            <div class="info row"></div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-danger btn-lg btn-block mt-0 mb-4 border-link">
+                    <button type="button" class="btn btn-danger btn-lg btn-block mt-0  mb-4 border-link">
                         <a href="https://ubicanos.pagoefectivo.pe/#/?tienda=[idServicio]&moneda=1&monto=100.00&ubicame=true&_k=ws2owh" target="_black"
                             style="text-decoration: none; color:white">
-                            <img src="assets/images/icon_arrow.svg" alt="Arrow image" style="width:24px; margin-right:5px"> Encuentra tu punto de pago</a>
+                            <img src="assets/images/icon_arrow.svg" alt="Arrow image" style="width:24px; margin-right:5px">Find your payment point </a>
                     </button>
                 </div>
 
@@ -256,35 +260,34 @@
 
         </div>
     </main>
-    <footer class="footer mb-2">
+    <footer class="footer">
         <div class="row justify-content-between">
             <div class="col-md-3 col-12 d-flex justify-content-center align-items-center">
-                <p class="d-inline-block m-3 align-middle text-secondary">Instrucciones vía</p>
+                <p class="d-inline-block m-3 align-middle text-secondary">Instructions</p>
                 <button id="print" type="button" class="btn btn-outline-warning">
                     <img src="assets/images/icon_print.svg" alt="print" style="width: 25.4px">
                 </button>
             </div>
-            <div class="col-md-4 col-6 d-flex justify-content-center text-center align-items-center contact-letter">
+            <div class="col-md-4 col-6 d-flex justify-content-center text-center align-items-center">
                 <p>
-                    <span class="text-secondary">Ayuda: </span>
-                    <a class="text-warning font-weight-bold" href="mailto:contacto@redbus.pe" target="_black">contacto@redbus.pe</a>
+                    <span class="text-secondary">Assistance: </span>
+                    <a class="text-warning font-weight-bold" href="cont">contacto@redbus.pe</a>
                 </p>
             </div>
             <div class="col-md-4 col-5 text-center text-secondary nav-item d-flex align-items-center justify-content-center ">
-                Pago vía
-                <img class="pagoEfectivo-img-footer align-items-center" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo">
-            </div>
+                    Payment by
+                    <img class="pagoEfectivo-img-footer align-items-center" src="assets/images/logo-pagoefectivo.svg" alt="Logo Pago Efectivo">
+                </div>
+            
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app-en.js"></script>
 </body>
 
 </html>
