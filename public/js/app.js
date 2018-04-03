@@ -35,7 +35,7 @@ const agentes = [
             const $img = $(this);
             if ($img.attr('alt') == obj.name){
                 $('.informacion').remove()
-                $('.info').append( `<h6 class=informacion>${obj.info1}</h6> <h6 class=informacion>${obj.info2}</h6>`)
+                $('.info').append( `<p class="informacion">${obj.info1}</p> <p class="informacion">${obj.info2}</p>`)
             }              
           });       
      });
