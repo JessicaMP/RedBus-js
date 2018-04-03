@@ -15,19 +15,20 @@ const agente = [
     { name: 'westerUnion', id: 7, att1: '', img: 'assets/images/logo-westerUnion.svg', info1: '', att2: '', info2: '' },
     { name: 'kasnet', id: 8, att1: '', img: 'assets/images/logo-kasnet.svg', info1: '', att2: '', info2: '' }
 ]
-  
+const arrayP = banco.map(function(obj){ 
+    const insert = ( `<img class='logo' src=${obj.img} alt="bcp">`)
+    $('.row').find('.images-cont').append( `<img class='logo cursor' src=${obj.img} alt=${obj.name}>`);
 
-    const arrayP = banco.map(function(obj){ 
-
-        $('img').click(function(){
-            const $img = $(this);
-            if ($img.attr('alt') == obj.name){
-                $('.datos').remove()
-                $('.pasos').append( `<p class='datos text-secondary'> <img src="assets/images/one.svg" alt="Number One" class="numbers"> ${obj.paso1}</p> <p class='datos text-secondary'> <img src="assets/images/two.svg" alt="Number Two" class="numbers text-secondary"> Enter your CIP code:9125682 and folow the instructions</p> ` 
-                )
-            }              
-          });       
-     });
+    $('.images-cont').find('.logo').click(function(){
+      $(this).removeClass('border-img').addClass('border-img printMe');
+      $(this).siblings().removeClass('border-img ');
+          const $img = $(this);
+          if ($img.attr('alt') == obj.name){
+              $('.datos').remove();
+              $('.pasos').append( `<p class='datos text-secondary'> <img src="assets/images/one.svg" alt="Number One" class="numbers"> ${obj.paso1}</p> <p class='datos text-secondary'> <img src="assets/images/two.svg" alt="Number Two" class="numbers text-secondary"> Enter your CIP code:9125682 and folow the instructions</p> `);
+          }              
+        });       
+   })
     
      const arrayI = agente.map(function(obj){ 
 
@@ -42,5 +43,9 @@ const agente = [
           });       
      });
     
-
+//Impresión
+$('#printPage').click(function() {
+    console.log('print Page');
+    window.print();
+  });
 

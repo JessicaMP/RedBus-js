@@ -7,7 +7,7 @@ body {
     visibility: visible;
 }
 
-.instrucciones, .timeBox, .bank, .timeIcon, .instructionsPrint {
+.instrucciones, .timeBox, .logo, .timeIcon, .pasos {
     position: absolute;
     width: 50%;
 }
@@ -25,7 +25,7 @@ body {
     border-radius: 1rem;
 }
 
-.bank {
+.logo {
     top: 28em;
     left: 11em;
 }
@@ -73,9 +73,17 @@ h2 {
     font-size: 2.5rem;
 }
 
-.instructionsPrint{
+.pasos {
     top: 38em;
-    color: gray;
+    color: black;
     font-size: 1rem;
     text-align: justify ;
 }
+
+.timeIcon {
+    width: 2.125rem;
+  } 
+
+  .numbers {
+    width: 1.5rem;
+    }

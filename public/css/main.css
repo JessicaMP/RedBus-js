@@ -140,6 +140,20 @@ font-size: 0.8rem;
   text-align: left;
 }
 
+  .slick-prev:before {
+    content: url(../assets/images/previous.svg);
+    color: rgb(224, 170, 0);
+}
+
+.slick-next:before {
+  content: url(../assets/images/next.svg);
+  color: rgb(224, 170, 0);
+}
+
+.border-img {
+  border: 2px solid rgb(224, 170, 0);
+}
+
 @media screen and (min-width: 720px) {
   .pagoEfectivo-img {
     width: 15%;

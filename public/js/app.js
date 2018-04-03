@@ -18,16 +18,20 @@ const agentes = [
   
 
     const arrayPasos = bancos.map(function(obj){ 
+        const insert = ( `<img class='logo' src=${obj.img} alt="bcp">`)
+        $('.row').find('.images-cont').append( `<img class='logo cursor' src=${obj.img} alt=${obj.name}>`);
+  
+        $('.images-cont').find('.logo').click(function(){
+          $(this).removeClass('border-img').addClass('border-img printMe');
+          $(this).siblings().removeClass('border-img ');
+              const $img = $(this);
+              if ($img.attr('alt') == obj.name){
+                  $('.datos').remove();
+                  $('.pasos').append( `<p class='datos text-secondary'><img src="assets/images/one.svg" alt="Number One" class="numbers"> Ingresa tu codigo CIP:9125682 y sigue los pasos</p> <p class='datos text-secondary'> <img src="assets/images/two.svg" alt="Number Two" class="numbers"> ${obj.paso1}</p>`);
+              }              
+            });       
+       })
 
-        $('img').click(function(){
-            const $img = $(this);
-            if ($img.attr('alt') == obj.name){
-                $('.datos').remove();
-                $('.pasos').append( `<p class='datos text-secondary'><img src="assets/images/one.svg" alt="Number One" class="numbers"> Ingresa tu codigo CIP:9125682 y sigue los pasos</p> <p class='datos text-secondary'> <img src="assets/images/two.svg" alt="Number Two" class="numbers"> ${obj.paso1}</p>`);
-            }              
-          });       
-     });
-    
      const arrayInfo = agentes.map(function(obj){ 
 
         $('img').click(function(){
@@ -41,5 +45,9 @@ const agentes = [
           });       
      });
     
-
+//Impresión
+$('#printpage').click(function() {
+    console.log('print Page');
+    window.print();
+  });
 
